@@ -15,6 +15,12 @@ for ( var i=9; i<=16; i++) {
 
 };
 
+function init() {
+
+
+
+};
+
 for ( var i=9; i<=16; i++) {
 
     var indexTime = '#' + [i];
@@ -25,6 +31,9 @@ for ( var i=9; i<=16; i++) {
         console.log('Click!');
         event.target.className = 'material-icons saved';
         // save textarea value content to localstorage
+        var storedEvent = $('.description').val() ;
+        localStorage["storedEvent"] = storedEvent ;
+        localStorage.setItem("storedEvent", storedEvent) ;
 
       } else if (event.target.className == 'material-icons saved') {
         console.log('unclick');
@@ -34,3 +43,4 @@ for ( var i=9; i<=16; i++) {
     });
 };
 
+init();
