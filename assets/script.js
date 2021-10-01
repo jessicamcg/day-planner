@@ -1,4 +1,4 @@
-var date = moment().format( 'dddd MMM Do, YYYYY' );
+var date = moment().format( 'dddd MMM Do, YYYY' );
 $('#currentDay').text(date);
 
 var storedEvent = storedEvent = JSON.parse(localStorage.getItem('storedEvent')) || [];
