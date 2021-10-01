@@ -15,8 +15,8 @@ The current date is reflected in the header of the page.
 The current time is represented by the color of each time block. 
     Grey as past, red as present and green as future.
 
-![First Page Load]()
-![Saved events]()
+![First Page Load](https://github.com/jessicamcg/day-planner/blob/main/assets/firstpageload.png)
+![Saved events](https://github.com/jessicamcg/day-planner/blob/main/assets/savedevents.png)
 
 ## Live Link
 https://jessicamcg.github.io/day-planner/
