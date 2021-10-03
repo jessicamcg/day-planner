@@ -34,7 +34,6 @@ function init() {
 
             $(indexTime).children().siblings().eq(3).children(i).removeClass('material-icons unsaved');
             $(indexTime).children().siblings().eq(3).children(i).addClass('material-icons saved');
-            console.log($(indexTime).children().siblings().eq(3).children(i));
         };
     };
 
